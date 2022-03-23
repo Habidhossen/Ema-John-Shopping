@@ -1,14 +1,20 @@
 .product-card {
-  padding: 8px;
   border: 1px solid #95a0a7;
   border-radius: 8px;
+  height: 520px;
+  width: 300px;
+  position: relative;
+}
+.product-inner-div {
+  padding: 7px;
 }
 .card-img {
   border-radius: 8px;
+  width: 286px;
 }
 .card-title {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 21px;
   line-height: 25px;
   letter-spacing: 0.0015em;
@@ -16,17 +22,35 @@
 }
 .card-price {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.0015em;
   color: #0e161a;
+  margin-top: 12px;
 }
 .card-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   letter-spacing: 0.004em;
   color: #2a414f;
+}
+.card-btn {
+  background: #ffe0b3;
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  width: 100%;
+  padding: 12px 96px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0125em;
+  color: #0e161a;
+  position: absolute;
+  bottom: 0;
+}
+.card-btn:hover {
+  background-color: #f3c887;
 }

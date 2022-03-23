@@ -1,16 +1,20 @@
 import React from "react";
 import "./Product.css";
 
-const Product = () => {
+const Product = (props) => {
+  const { name, img, price, ratings, seller } = props.product;
+
   return (
     <div>
       <div className="product-card">
-        <img className="card-img" src="" alt="" />
-        <h1 className="Card-title">Ultraboost 22 Shoes</h1>
-        <h5 className="Card-price">Price: $190 </h5>
-        <p className="Card-text">Manufacturer : Addidas</p>
-        <p className="Card-text">Rating : 3 start</p>
-        <button className="Card-btn">Add to Cart</button>
+        <div className="product-inner-div">
+          <img className="card-img" src={img} alt="" />
+          <h1 className="card-title">{name}</h1>
+          <h5 className="card-price">Price: ${price} </h5>
+          <p className="card-text">Manufacturer : {seller}</p>
+          <p className="card-text">Rating : {ratings} star</p>
+        </div>
+        <button className="card-btn">Add to Cart</button>
       </div>
     </div>
   );
