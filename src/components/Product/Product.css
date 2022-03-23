@@ -1,0 +1,32 @@
+.product-card {
+  padding: 8px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+}
+.card-img {
+  border-radius: 8px;
+}
+.card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+}
+.card-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+}
+.card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.004em;
+  color: #2a414f;
+}
