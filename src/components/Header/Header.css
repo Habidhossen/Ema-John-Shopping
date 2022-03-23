@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #1c2b35;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 146px;
+}
+a {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+  margin-left: 36px;
+}
+a:hover {
+  color: #ff9900;
+}
